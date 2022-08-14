@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .mainContent{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    h1{
+      font-size: 50px;
+      font-weight: bold;
+      margin: 5px 0;
+      padding: 0;
+    }
+    .buttonAra{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+    button{
+      color: white;
+      margin: 5px;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    #increment{
+      background-color: green;
+    }
+    #decrement{
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <section class="mainContent">
+    <h1 id="counter">0</h1>
+    <div class="buttonAra">
+      <div><button id="increment">Increment</button></div>
+      <div><button id="decrement">Decrement</button></div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
